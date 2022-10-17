@@ -20,7 +20,7 @@ body{
 /*Especificidad 001*/
 h1{
   background-color: black;
-  color: greenyellow;
+  color: white;
 }
 
 /*Especificidad 001*/
@@ -38,13 +38,13 @@ caption {
 
 /*Especificidad 001*/
 tr,td, th{
-  border: 0.1em outset greenyellow;
+  border: 0.1em outset green;
   padding: 0.05em;
 }
 
 /*Especificidad 001*/
 fieldset{
-  border-color: white;
+  border-color: greenyellow;
 }
 
 
