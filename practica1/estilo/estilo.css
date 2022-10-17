@@ -19,17 +19,20 @@ body{
 
 /*Especificidad 001*/
 h1{
+  background-color: #1E1E1E;
   color: greenyellow;
 }
 
 /*Especificidad 001*/
 a {
+  background-color: #1E1E1E;
   color: greenyellow;
 }
 
 /**Tabla aportaciones**/
 /*Especificidad 001*/
 caption {
+  color: whitesmoke;
   background-color: #1C5221;
 }
 

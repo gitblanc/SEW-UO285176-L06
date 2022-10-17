@@ -31,12 +31,7 @@ body {
 /*Especificidad 001*/
 nav, main{
   text-align: left;
-  padding: 1.2em 0;
-}
-
-/*Especificidad 001*/
-main {
-  padding-right: 2.5em;
+  padding: 2.5em;
 }
 
 /*Especificidad 001*/
