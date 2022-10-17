@@ -1,0 +1,39 @@
+/**
+  Eduardo Blanco - UO285176
+  Tipo de letra
+  Colores
+  Estilos
+  Tablas
+
+  NADA DE POSICIONAMIENTO
+
+  poner el tipo de letra en body, para que así lo hereden todos los elementos
+**/
+
+body{
+  background-color: #1E1E1E;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  color: greenyellow;
+}
+
+a {
+  color: greenyellow;
+}
+
+/**Tabla aportaciones**/
+#aportaciones thead {
+  background-color: #1C5221;
+}
+
+#aportaciones td,thead{
+  border: 0.2em outset greenyellow;
+  padding: 0.05em;
+}
+
+
+
+
