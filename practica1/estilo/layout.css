@@ -31,7 +31,20 @@ body {
 /*Especificidad 001*/
 nav, main{
   text-align: left;
-  padding: 2.5em;
+}
+
+nav{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+main{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 /*Especificidad 001*/
@@ -43,6 +56,10 @@ left {
 /*Especificidad 001*/
 footer{
   text-align: right;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 /*Especificidad 001*/

@@ -12,20 +12,20 @@
 
 /*Especificidad 001*/
 body{
-  background-color: #1E1E1E;
+  background-color: #141414;
   color: whitesmoke;
   font-family: Arial, sans-serif;
 }
 
 /*Especificidad 001*/
 h1{
-  background-color: #1E1E1E;
+  background-color: #141414;
   color: #00AD00;
 }
 
 /*Especificidad 001*/
 a {
-  background-color: #1E1E1E;
+  background-color: #141414;
   color: greenyellow;
 }
 
