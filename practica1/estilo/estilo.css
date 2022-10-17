@@ -38,7 +38,7 @@ caption {
 
 /*Especificidad 001*/
 tr,td, th{
-  border: 0.1em outset green;
+  border: 0.1em outset greenyellow;
   padding: 0.05em;
 }
 
