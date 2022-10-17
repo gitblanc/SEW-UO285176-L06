@@ -16,16 +16,17 @@ main {grid-area: main;}
 /*Especificidad 001*/
 aside {grid-area: left;}
 /*Especificidad 001*/
-footer {grid-area:footer;}
+footer {grid-area: footer;}
 
 /*Especificidad 001*/
 body {
   display: grid;
   grid-template-areas: 
-   'header header header header header header'
-   'menu main main main main main'
-   'left main main main main main'
-   'left footer footer footer footer footer';
+   'header header header '
+   'menu main main '
+   'left main main '
+   'left main main '
+   'footer footer footer';
 }
 
 /*Especificidad 001*/
@@ -33,6 +34,7 @@ nav, main{
   text-align: left;
 }
 
+/*Especificidad 001*/
 nav{
   padding-top: 1em;
   padding-bottom: 1em;
@@ -40,6 +42,7 @@ nav{
   padding-right: 2.5em;
 }
 
+/*Especificidad 001*/
 main{
   padding-top: 1em;
   padding-bottom: 1em;
@@ -55,7 +58,7 @@ left {
 
 /*Especificidad 001*/
 footer{
-  text-align: right;
+  /* text-align: right; */
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 2.5em;
