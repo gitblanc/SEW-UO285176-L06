@@ -13,7 +13,7 @@
 /*Especificidad 001*/
 body{
   background-color: #141414;
-  color: whitesmoke;
+  color: white;
   font-family: Arial, sans-serif;
 }
 
@@ -32,7 +32,7 @@ a {
 /**Tabla aportaciones**/
 /*Especificidad 001*/
 caption {
-  color: whitesmoke;
+  color: white;
   background-color: #1C5221;
 }
 
