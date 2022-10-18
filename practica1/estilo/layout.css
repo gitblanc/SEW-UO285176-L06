@@ -48,6 +48,7 @@ main{
   padding-bottom: 1em;
   padding-left: 4em;
   padding-right: 4em;
+  overflow: scroll;
 }
 
 /*Especificidad 001*/
@@ -58,7 +59,7 @@ left {
 
 /*Especificidad 001*/
 footer{
-  /* text-align: right; */
+  text-align: right;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 2.5em;
