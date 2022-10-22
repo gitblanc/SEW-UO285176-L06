@@ -21,22 +21,18 @@ footer {grid-area: footer;}
 /*Especificidad 001*/
 body {
   display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
   grid-template-areas: 
-   'header header header '
+   'header . . '
    'menu main main '
    'left main main '
-   'left footer footer';
+   'left . footer';
 }
 
 /*Especificidad 001*/
 header {
   display:grid;
   padding-left: 1em;
-}
-
-/*Especificidad 001*/
-nav, main{
-  text-align: left;
 }
 
 /*Especificidad 001*/
@@ -59,7 +55,7 @@ main{
 /*Especificidad 001*/
 footer{
   display: grid;
-  text-align: right;
+  /* text-align: right; */
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 2.5em;
@@ -83,18 +79,11 @@ img {
 video{
   width: 80%;
   height: 80%;
-  margin: 0 auto;
 }
 
 /*Especificidad 001*/
 table{
-  text-align: center;
   display: grid;
-}
-
-/*Especificidad 001*/
-caption{
-  text-align: left;
 }
 
 
